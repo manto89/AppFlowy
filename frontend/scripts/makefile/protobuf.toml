@@ -27,7 +27,7 @@ script_runner = "@shell"
 
 [tasks.install_protobuf_compiler.linux]
 script = """
-sudo yay -S --noconfirm protobuf protobuf-compiler
+sudo apt install -y protobuf-compiler
 
 
 echo "Install protoc_plugin (Dart)"
